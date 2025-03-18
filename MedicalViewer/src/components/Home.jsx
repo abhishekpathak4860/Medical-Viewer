@@ -16,7 +16,7 @@ export default function Home() {
   }
 
   useEffect(() => {
-    fetch("../detection_result.json")
+    fetch("/detection_result.json")
       .then((response) => response.json())
       .then((data) => {
         if (data) {
