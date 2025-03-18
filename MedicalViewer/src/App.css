@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer utilities {
+    @media (max-width: 970px) {
+      .custom-home-responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        width: 100%;
+      }
+      .custom-table-responsive {
+        width: 340px;
+      }
+      .custom-central-panel{
+        margin-top: 10px;
+      }
+      .custom-rigth-panel{
+        width: 300px;
+        height: 200px;
+        margin-top: 0px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+      }
+      .custom-zoom-button{
+        padding: 4px;
+        font-size: 10px;
+      }
+      .custom-patient{
+        width: 300px;
+      }
+      .custom-get-report{
+        max-width: 350px;
+      }
+      .custom-report-button{
+        margin-top: 10px;
+      }
+    }
+  
+
+  }
+  
